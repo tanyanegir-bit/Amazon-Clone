@@ -1,4 +1,4 @@
-# Amazon.com Clone
+# 📦 Amazon.com Clone
 
 A front-end clone of Amazon.com (US website), built using HTML and CSS.
 
