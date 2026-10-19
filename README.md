@@ -1,6 +1,6 @@
 # 📦 amazon.com Clone
 
-A front-end clone of amazon.com (US website), built using HTML and CSS. Designed mainly for desktop screens.
+A front-end clone of amazon.com (US website), built using HTML and CSS. Designed mainly for *desktop screens*.
 
 ## Features
 - Amazon-inspired homepage
