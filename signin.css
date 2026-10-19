@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.amz-logo{
+    height: 31px;
+    width: 1263.2px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.logo{
+    background-image: url(amazon-logo-amazon-icon-free-free-vector.jpg);
+    height: 60px;
+    width: 133px;
+    background-size: cover;
+}
+
+.details{
+    border: 1.4px solid rgb(217, 212, 212);
+    border-radius: 10px;
+    padding: 0px 23px 20px;
+    width: 320.4px;
+    height: 370px;
+    
+}
+h1{
+    font-family: "Roboto", Arial;
+}
+b{
+    font-size: 14.5px;
+    font-family: "Roboto", Arial;
+}
+.phone-no{
+    width: 300.6px;
+    height: 31px;
+    margin-top: 4px;
+    
+}
+button{
+    width: 301.6px;
+    height: 32px;
+    background-color: #FFD814;
+    border-radius: 17px;
+    border: 0px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: "Roboto", Arial;
+}
+button:hover{
+    background-color: #F7CA00;
+}
+p{
+    font-size: 14px;
+    font-family: "Roboto", Arial;
+}
+a{
+    color: #2162a1;
+}
+.business-acc{
+    border-top: 1.2px solid rgb(217, 212, 212);
+}
+.business-acc p{
+    font-family: "Roboto", Arial;
+}
+#a1{
+    text-decoration: none;
+
+}
+
+.footr{
+    height: 98px;
+    width: 1536.2px;
+    border-top: 2px solid rgb(217, 212, 212);
+    margin-top:60px;
+}
+#footr1{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-family: "Roboto", Arial;
+    font-size: 13px;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+
+#footr2{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", Arial;
+    font-size: 13px;
+}

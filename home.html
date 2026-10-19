@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8"> <!-- UTF-8 allows your webpage to correctly display a huge range of characters, including: English, Hindi, Emojis: 😊, Symbols, Other languages -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAZON CLONE</title>
+    <link rel="stylesheet" href="home.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1e3a01ae2b.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-location border">
+                <p id="add1">Deliver to</p>
+                <div class="nav-country">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p><b>India</b></p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+
+                    <option>All</option>
+                    <option>Fashion</option>
+                    <option>Baby</option>
+                    <option>Arts and crafts</option>
+                    <option>Books</option>
+                    <option>Computers</option>
+                    <option>Electronics</option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input">
+                <div id="searchic">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="lang border">
+                <i class="fa-solid fa-flag-usa" style="color: cornflowerblue;"></i>
+                <b>EN</b>
+            </div>
+            
+            <a href="signin.html" style="text-decoration: none; color: white;">
+            <div class="nav-signin border" title="Sign in/Register">
+                <p id="signin1"><b>Hello, sign in</b></p>
+                <p class="nav-second"> Accounts & Lists
+                <i class="fa-solid fa-angle-down"></i>
+                </p>                
+            </div></a>
+
+            <div class="nav-orders border">
+                <p id="orders1"><b>Returns</b></p>
+                <p class="nav-second">& Orders</p>
+            </div>
+
+            <div class="nav-cart border">
+                <i id="cart" class="fa-solid fa-cart-shopping"></i>
+                <p id="cart2">Cart</p>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all border">
+                <i style="font-size: 23px;" class="fa-solid fa-bars"></i>
+                <p>All</p>
+            </div>
+
+            <div class="panel-ops">
+                <div class="ops-prime border">Prime Video</div>
+                <div class="ops-coupons border">Coupons</div>
+                <div class="ops-service border">Customer Service</div>
+                <div class="ops-deals border">Today's Deals</div>
+                <div class="ops-reg border">Registry</div>
+                <div class="ops-gift border">Gift Cards</div>
+                <div class="ops-sell border">Sell</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="card" id="img1">
+            <p style="margin-top: 10px;">Shop Kitchen</p>
+            <p>must-haves</p>
+            
+        </div>
+        <div class="card" id="img2">
+            <p style="margin-top: 10px;">Shop all</p>
+            <p>things beauty</p>
+        </div>
+        <div class="card" id="img3">
+            <p style="margin-top: 10px;">Start looking </p>
+            <p>sharp</p>
+        </div>
+        <div class="card" id="img4">
+            <p style="margin-top: 10px;">
+                Toys for little ones
+            </p>
+        </div>
+        <div class="card" id="img5">
+            <p style="margin-top: 10px;">Level up</p>
+            <p>your PC here</p>
+        </div>
+        <div class="card" id="img6">
+            <p style="margin-top: 10px;">
+                <p>Discover books</p>
+                <p>you can't put down</p>
+            </p>
+        </div>
+    </div>
+    <!-- Shop section -->
+    <div class="shop-section">
+        <div class="sub-shop-section1 style">
+            <div class="box1 box">
+                <p id="shop-title">Plug in with our electronics</p>
+                <div class="boxes">
+                    <div class="item">
+                        <div class="box-img1"></div>
+                        <p>Headphones</p>
+                    </div>
+                    <div class="item">
+                        <div class="box-img2"></div>
+                        <p>Tablets</p>
+                    </div>
+            
+                    <div class="item">
+                        <div class="box-img3"></div>
+                        <p>Gaming</p>
+                    </div>
+                    <div class="item">
+                        <div class="box-img4"></div>
+                        <p>Speakers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box2 box">
+                <p id="shop-title">Gear up to get fit</p>
+                <div class="boxes">
+                    <div class="item">
+                        <div class="box2-img1"></div>
+                        <p>Clothing</p>
+                    </div>
+                    <div class="item">
+                        <div class="box2-img2"></div>
+                        <p>Trackers</p>
+                    </div>
+            
+                    <div class="item">
+                        <div class="box2-img3"></div>
+                        <p>Equipment</p>
+                    </div>
+                    <div class="item">
+                        <div class="box2-img4"></div>
+                        <p>Deals</p>
+                    </div>
+                </div>
+            </div>
+        <div class="box3 box">
+            <p id="shop-title">Apparel under $25</p>
+            <div class="boxes">
+                <div class="item">
+                    <div class="box3-img1"></div>
+                    <p>Women</p>
+                </div>
+                <div class="item">
+                    <div class="box3-img2"></div>
+                    <p>Men</p>
+                </div>
+            
+                <div class="item">
+                    <div class="box3-img3"></div>
+                    <p>Girls</p>
+                </div>
+                <div class="item">
+                    <div class="box3-img4"></div>
+                    <p>Boys</p>
+                </div>
+            </div>
+        </div>
+        <div class="box4 box">
+            <p id="shop-title">Level up your PC here</p>
+            <div class="boxes">
+                <div class="item">
+                    <div class="box4-img1"></div>
+                    <p>Laptops</p>
+                </div>
+                <div class="item">
+                    <div class="box4-img2"></div>
+                    <p>PCs</p>
+                </div>
+            
+                <div class="item">
+                    <div class="box4-img3"></div>
+                    <p>Hard Drives</p>
+                </div>
+                <div class="item">
+                    <div class="box4-img4"></div>
+                    <p>Monitors</p>
+                </div>
+            
+            </div>
+        </div>
+        </div>
+
+
+        <div class="sub-shop-section2 style">
+            <div class="box1 box">
+                <p id="shop-title">Finds in Home</p>
+                <div class="boxes">
+                    <div class="item">
+                        <div class="box1-2-img1"></div>
+                        <p>Bedsheets</p>
+                    </div>
+                    <div class="item">
+                        <div class="box1-2-img2"></div>
+                        <p>Pillows</p>
+                    </div>
+            
+                    <div class="item">
+                        <div class="box1-2-img3"></div>
+                        <p>Duvet Covers</p>
+                    </div>
+                    <div class="item">
+                        <div class="box1-2-img4"></div>
+                        <p>Throws</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box2 box">
+                <p id="shop-title">Have more fun with the family</p>
+                <div class="boxes">
+                    <div class="item">
+                        <div class="box2-2-img1"></div>
+                        <p>Outdoor Play Sets</p>
+                    </div>
+                    <div class="item">
+                        <div class="box2-2-img2"></div>
+                        <p>Learning Toys</p>
+                    </div>
+            
+                    <div class="item">
+                        <div class="box2-2-img3"></div>
+                        <p>Action Figures</p>
+                    </div>
+                    <div class="item">
+                        <div class="box2-2-img4"></div>
+                        <p>Pretend Play Toys</p>
+                    </div>
+                </div>
+            </div>
+        <div class="box3 box">
+            <p id="shop-title">Home Harmony</p>
+            <div class="boxes">
+                <div class="item">
+                    <div class="box3-2-img1"></div>
+                    <p>Kitchen essentials</p>
+                </div>
+                <div class="item">
+                    <div class="box3-2-img2"></div>
+                    <p>Home comfort</p>
+                </div>
+            
+                <div class="item">
+                    <div class="box3-2-img3"></div>
+                    <p>Decorate with elegance</p>
+                </div>
+                <div class="item">
+                    <div class="box3-2-img4"></div>
+                    <p>Light is Right</p>
+                </div>
+            </div>
+        </div>
+        <div class="box4 box">
+            <p id="shop-title">Shoes Under $50</p>
+            <div class="boxes">
+                <div class="item">
+                    <div class="box4-2-img1"></div>
+                    <p>Women's</p>
+                </div>
+                <div class="item">
+                    <div class="box4-2-img2"></div>
+                    <p>Men's</p>
+                </div>
+            
+                <div class="item">
+                    <div class="box4-2-img3"></div>
+                    <p>Girls's</p>
+                </div>
+                <div class="item">
+                    <div class="box4-2-img4"></div>
+                    <p>Boy's</p>
+                </div>
+            
+            </div>
+        </div>
+        </div>
+        
+    </div>
+
+    <footer>
+        <div>
+            <a href="#top" class="back-to-top">Back To Top</a>
+        </div>
+        <div class="foot-panel1">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog<a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p> 
+                <a>Sell products on Amazon</a>
+                <a>Sell on Amazon Business<a>
+                <a>Sell apps on Amazon</a>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your Products</a>
+                <a>Self-Publish with Us</a>
+                <a>Host an Amazon Hub</a>
+            </ul>
+            <ul>
+                <p>Amazon Payment Products</p>
+                <a>Amazon Business Card</a>
+                <a>Shop with Points</a>
+                <a>Reload Your Balance</a>
+                <a>Amazon Currency Converter</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a>Your Account</a>
+                <a>Your Orders<a>
+                <a>Shipping Rates & Policies</a>
+                <a>Returns & Replacements</a>
+                <a>Manage Your Content and Devices</a>
+                <a>Help</a>
+            </ul>
+        </div>
+        <div class="foot-panel2">
+            <div class="plogo"></div>
+            <div class="foot-nav">
+                <div class="footopt">
+                    <span>🌐</span>
+                    <select>
+                        <option>English - EN</option>
+                        <option>हिन्दी - HI</option>
+                        <option>español - ES</option>
+                        <option>português - PT</option>
+                    </select>
+                </div>
+                <div class="footopt">
+                    <span>₹ INR - Indian Rupee</span>
+                    
+                </div>
+                <div class="footopt">
+                    <img src="https://flagcdn.com/w20/us.png" alt="US flag">
+                    <span>United States</span>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="footr2">
+            <div class="foot-panel3">
+                <div class="col1 c">
+                    <ul>
+                        <a id="heading">Amazon Music</a>
+                        <a>Stream millions of songs</a>
+                    </ul>
+                    <ul>
+                        <a id="heading">Amazon Business</a>
+                        <a>Everything For</a>
+                        <a>Your Business</a>
+                    </ul>
+                    <ul>
+                        <a id="heading">IMDbPro </a>
+                        <a>Get Info</a>
+                        <a>Entertainment</a>
+                        <a>Professionals Need</a>
+                    </ul>
+                </div>
+                <div class="col2 c">
+                    <ul>
+                        <a id="heading">6pm</a>
+                        <a>Score deals on fashion brands</a>
+                    </ul>
+                    <ul>
+                        <a id="heading">Amazon Web Services</a>
+                        <a>Scalable Cloud Computing Services</a>
+                    </ul>
+                    <ul>
+                        <a id="heading">Prime Video Direct</a>
+                        <a>Video Distribution Made Easy</a>
+                    </ul>
+                </div>
+                <div class="col3 c">
+                    <ul style="height: px;">
+                        <a id="heading">Amazon Ads</a>
+                        <a>Reach customers</a>
+                        <a>wherever they</a>
+                        <a>spend their time</a>
+                    </ul>
+                    <ul >
+                        <a id="heading">AmazonGlobal</a>
+                        <a>Ship Orders</a>
+                        <a>Internationally</a>
+                    </ul>
+                    <ul>
+                        <a id="heading">Kindle Direct </a>
+                        <a id="heading">Publishing</a>
+                        <a>Indie Digital &</a>
+                        <a>Print Publishing</a>
+                        <a>Made Easy</a>
+                    </ul>
+                </div>
+                <div class="col4 c">
+                    <ul>
+                        <a id="heading">AbeBooks</a>
+                        <a>Books, art & collectibles</a>
+                    </ul>
+                    <ul>
+                        <a id="heading">Audible</a>
+                        <a>Listen to Books & Original Audio Performances</a>
+                        
+                    </ul>
+                    <ul>
+                        <a id="heading">ShopBop </a>
+                        <a>Designer</a>
+                        <a>Fashion Brands</a>
+                    </ul>
+                </div>
+                <div class="col5 c">
+                    <ul>
+                        <a id="heading">Sell on Amazon</a>
+                        <a>Start a Selling Account</a>
+                    </ul>
+                    <ul>
+                        <a id="heading">Goodreads</a>
+                        <a>Book reviews</a>
+                        <a>&</a>
+                        <a>recommendations</a>
+                        
+                    </ul>
+                    <ul>
+                        <a id="heading">Zappos</a>
+                        <a>Shoes &</a>
+                        <a>Clothing</a>
+                        
+                    </ul>
+                </div>
+        
+            </div>
+
+            <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Consumer Health Data Privacy Disclosure</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                <p>© 1996-2026, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
